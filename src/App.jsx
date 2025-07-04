@@ -18,7 +18,7 @@ function App() {
     setOutput(null);
 
     try {
-      const response = await fetch(`/convert?response_type=${responseType}`, {
+      const response = await fetch(`https://pdf-to-excel-python-production.up.railway.app/convert?response_type=${responseType}`, {
         method: "POST",
         body: formData,
       });
