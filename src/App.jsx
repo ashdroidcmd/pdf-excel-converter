@@ -59,7 +59,6 @@ function App() {
           onChange={(e) => setResponseType(e.target.value)}
           className="border p-2"
         >
-          <option value="json">JSON</option>
           <option value="excel">Excel</option>
         </select>
         <button
